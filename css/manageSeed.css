@@ -1,0 +1,27 @@
+body{
+    background: url("../images/carousel1.jpeg") repeat center center;
+    background-size: cover;
+
+}
+
+.box
+{
+    width:1270px;
+    padding:20px;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-top:25px;
+    box-sizing:border-box;
+    opacity:.8;
+    transition: 2s;
+
+}
+.box:hover{
+    opacity:1;
+    transition: 2s;
+}
+
+table tr td, table th{
+    font-size:16px;
+}
